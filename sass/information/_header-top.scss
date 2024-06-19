@@ -1,0 +1,80 @@
+.headerTop {
+    background-color: #1F1D14;
+    width: 100%; 
+    position: fixed;   
+    width: 100%;
+    z-index: 999;    
+    .nav {
+        padding: 15px 0px;
+        display: flex;
+        align-items: center;
+        .headerLogo {
+            display: flex;
+            gap: 12px;
+            .headerLogo__img {
+                width: 62px;
+                height: 54px;
+            }
+            .headerLogo__p  {
+                color: white;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px;
+                opacity: 0.9;
+                width: 116px;
+                height: 56px;
+            }
+        }
+        .headerLinks {
+            padding-left: 50px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .headerLinks__list {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                .headerLinks__list-link {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    opacity: 0.8;
+                    color: white;
+                }
+            }
+            .headerLinks__right__list {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                .headerLinks__right__list-cover {
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    opacity: 0.8;
+                    .headerLinks__right__list-cover-img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                    .headerLinks__right__list-cover-p {
+                        font-size: 18px;
+                        // background-color: red;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: white;
+                        sub {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
