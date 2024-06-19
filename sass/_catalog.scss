@@ -1,0 +1,76 @@
+.catalog {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    height: 40vh;
+    background-color: #fff;
+    .catalogWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .catalogWrapper__h {
+            font-size: 32px;
+            font-weight:600;
+            line-height: normal;
+        }
+        .catalogWrapper__cards {
+            display: flex;
+            gap: 24px;
+            .catalogWrapper__cards-card {
+                width: 250px;
+                height: 300px;
+                background-color: #D3E5F2;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                justify-content: space-between;
+                .catalogWrapper_cards-card-h {
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+                .catalogWrapper_cards-card-img {
+                    padding-bottom: 16px;
+                }
+                &:nth-child(2) {
+                    background-color: #E2C6BE;
+                }
+                &:nth-child(3) {
+                    background-color: #DADBE0;
+                }
+                &:nth-child(4) {
+                    background-color: #E2EEC0;
+                }
+                &:nth-child(5) {
+                    background-color: #C2BCE8;
+                }
+                &:nth-child(6) {
+                    background-color: #ABA520;
+                }
+            }
+        }
+        .catalogWrapper__spans {
+            display: flex;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+            .catalogWrapper__spans-inner {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                .catalogWrapper__spans-inner-dot {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background-color: #d1d1cf;
+                    border-radius: 50%;
+                    &:nth-child(3) {
+                        background-color: #4B4A43;
+                    }
+                }
+
+            }
+        }
+    }
+}
